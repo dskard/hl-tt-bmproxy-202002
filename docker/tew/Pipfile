@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pdbpp = "*"
+black = "*"
+browsermob-proxy = "*"
+
+[packages]
+fabric = "*"
+pytest = "*"
+pytest-axe = "*"
+pytest-repeat = "*"
+pytest-rerunfailures = "*"
+pytest-selenium = "*"
+pytest-test-groups = "*"
+pytest-xdist = "*"
+python-dateutil = "*"
+requests = "*"
+selenium = "*"
+selene = {git = "https://github.com/yashaka/selene.git",ref = "1.0.0a13"}
+browsermob-proxy = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
